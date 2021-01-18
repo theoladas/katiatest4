@@ -1,0 +1,338 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f0f0f2;
+}
+/* fonts */
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Jura', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+a,
+li {
+  font-size: 2.2rem;
+  text-decoration: none;
+  list-style: none;
+  color: #77787b;
+}
+p {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 3.8rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+h4 {
+  font-size: 1.8rem;
+}
+/* NAV */
+header {
+  font-family: "Ubuntu", sans-serif;
+  min-height: 10vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.1);
+}
+nav {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 20px rgba(50, 50, 50, 0);
+  width: 100vw%;
+}
+.main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  height: 8rem;
+  width: 27rem;
+  object-fit: cover;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f49ac1;
+  text-decoration-thickness: 2px;
+}
+
+/* LANDING SECTION */
+.landing {
+  /* background-image: url(./images/make_up.jpg); */
+  font-family: "Poppins", sans-serif;
+  /* background-image: url(./images/Group.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-image: url(./images/Group.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.8;
+  top: 0%;
+  left: 0%;
+  min-height: 70vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: -1;
+}
+
+/* WAVE welcome page */
+.custom-shape-divider-bottom-1610918416 {
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1610918416 svg {
+  position: relative;
+  display: block;
+  width: calc(149% + 1.3px);
+  height: 60px;
+}
+
+.custom-shape-divider-bottom-1610918416 .shape-fill {
+  fill: #f0f0f2;
+}
+.landing-text h2 {
+  color: #f49ac1;
+}
+.landing-text p {
+  color: #77787b;
+}
+
+/* CONTACT PAGE */
+.contact-page {
+  min-height: 40vh;
+  width: 100vw;
+  background-image: url(./images/magazi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 9rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  align-items: center;
+  z-index: -1;
+  font-family: "Comfortaa", cursive;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+/* KATIA LADA BEAUTY SALON */
+.wrapper {
+  margin-top: 25rem;
+  margin-bottom: 2rem;
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: light;
+  color: #f49ac1;
+  text-align: center;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+.beauty {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+}
+.diaxoristiko {
+  color: #77787b;
+  font-family: "Jura", sans-serif;
+  font-weight: lighter;
+}
+.wrapper-text p {
+  margin: 1.2rem;
+  line-height: 2.5rem;
+  color: #77787b;
+}
+hr {
+  margin: 1rem;
+  opacity: 0.3;
+}
+/* CARDS  */
+.cards {
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: auto;
+  height: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.card h3 {
+  margin: 1rem;
+}
+.address-text,
+.phone-text,
+.email-text {
+  margin: 2rem;
+  font-family: "Comfortaa", cursive;
+  color: #77787b;
+}
+.address-text p {
+  line-height: 2.8rem;
+}
+.phone-text a,
+.email-text a {
+  margin: 2rem;
+  color: #f49ac1;
+}
+.icon {
+  width: 4rem;
+}
+
+/* BANNER */
+.banner {
+  padding: 2rem;
+  margin-top: 5rem;
+  background-color: #f49ac1;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.banner-text p {
+  line-height: 2.8rem;
+}
+.banner-icon {
+  margin: 0rem 4rem;
+  width: 4rem;
+}
+.banner-icon:hover {
+  color: #77787b;
+}
+/* MAP */
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+iframe {
+  border-radius: 2rem;
+  box-shadow: 0 10px 20px rgba(50, 50, 50, 0.6);
+  margin-bottom: 5rem;
+}
+
+/* FOOTER */
+footer {
+  width: 100vw;
+  min-height: 30vh;
+  background: #77787b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: warp;
+  text-align: center;
+}
+.visit {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.contactus h4 {
+  margin: 2rem;
+}
+.info {
+  margin: 2rem;
+}
+.icon2 {
+  margin: 1rem;
+  width: 30px;
+}
+.footer h4 {
+  color: #f49ac1;
+}
+.tel,
+.mail {
+  color: white;
+}
+footer h4 {
+  margin: 2rem;
+}
+.follow .hours .follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
+  a,
+  li {
+    font-size: 1.8rem;
+  }
+  .landing-text p {
+    font-size: 1.8rem;
+  }
+  .landing-text h2 {
+    font-size: 3.2rem;
+  }
+  .main-nav ul {
+    flex: 1;
+  }
+  .logo {
+    width: 19rem;
+    height: 5rem;
+  }
+  .banner-text {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .banner-icon {
+    width: 56px;
+  }
+  footer {
+    width: 100vw;
+  }
+  footer h4 {
+    font-size: 1.6rem;
+  }
+  footer p {
+    font-size: 1.6rem;
+  }
+}
