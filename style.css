@@ -150,6 +150,9 @@ nav {
   font-family: "Comfortaa", cursive;
   /* font-family: "Ubuntu", sans-serif; */
 }
+.contact-page h2 {
+  margin-top: 10rem;
+}
 /* KATIA LADA BEAUTY SALON */
 .wrapper {
   margin-top: 25rem;
@@ -259,48 +262,47 @@ iframe {
 
 /* FOOTER */
 footer {
+  font-family: "Comfortaa", cursive;
+
   width: 100vw;
-  min-height: 30vh;
+  min-height: 20vh;
   background: #77787b;
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: warp;
-  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.visit {
+.footer-wrap {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
-.contactus h4 {
-  margin: 2rem;
+
+.footer-wrap h4 {
+  padding: 1rem;
 }
-.info {
-  margin: 2rem;
+.footer-wrap p {
+  text-align: center;
 }
+/* .visit h4 {
+  margin-top: 2rem;
+} */
 .icon2 {
-  margin: 1rem;
   width: 30px;
+  margin-top: 1.4rem;
 }
 .footer h4 {
   color: #f49ac1;
 }
-.tel,
-.mail {
-  color: white;
+.footer-wrap a {
+  color: #f0f0f2;
 }
-footer h4 {
-  margin: 2rem;
-}
-.follow .hours .follow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media screen and (max-width: 992px) {
+
+/* IPAD */
+@media screen and (max-width: 768px) {
   a,
   li {
     font-size: 1.8rem;
@@ -326,13 +328,23 @@ footer h4 {
   .banner-icon {
     width: 56px;
   }
-  footer {
-    width: 100vw;
-  }
   footer h4 {
     font-size: 1.6rem;
   }
   footer p {
     font-size: 1.6rem;
+  }
+  .footer-wrap {
+    text-align: center;
+    flex: 2 1 30rem;
+  }
+  .follow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .follow h4 {
+    margin-top: 1rem;
   }
 }
