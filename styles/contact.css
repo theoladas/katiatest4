@@ -1,0 +1,132 @@
+/* CONTACT PAGE */
+.contact-page {
+  min-height: 40vh;
+  width: 100vw;
+  background-image: url(../images/magazi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 9rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  align-items: center;
+  z-index: -1;
+  font-family: "Comfortaa", cursive;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+.contact-page h2 {
+  margin-top: 10rem;
+}
+/* KATIA LADA BEAUTY SALON */
+.wrapper {
+  margin-top: 25rem;
+  margin-bottom: 2rem;
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  font-weight: light;
+  color: #f49ac1;
+  text-align: center;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+.beauty {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+}
+.diaxoristiko {
+  color: #77787b;
+  font-family: "Jura", sans-serif;
+  font-weight: lighter;
+}
+.wrapper-text p {
+  margin: 1.2rem;
+  line-height: 2.5rem;
+  color: #77787b;
+}
+hr {
+  margin: 1rem;
+  opacity: 0.3;
+}
+/* CARDS  */
+.cards {
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: auto;
+  height: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.card h3 {
+  margin: 1rem;
+}
+.address-text,
+.phone-text,
+.email-text {
+  margin: 2rem;
+  font-family: "Comfortaa", cursive;
+  color: #77787b;
+}
+.address-text p {
+  line-height: 2.8rem;
+}
+.phone-text a,
+.email-text a {
+  margin: 2rem;
+  color: #f49ac1;
+}
+.icon {
+  width: 4rem;
+}
+
+/* BANNER */
+.banner {
+  padding: 2rem;
+  margin-top: 5rem;
+  background-color: #f49ac1;
+  color: white;
+  font-family: "Comfortaa", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.banner-text p {
+  line-height: 2.8rem;
+}
+.banner-icon {
+  margin: 0rem 4rem;
+  width: 4rem;
+}
+.banner-icon:hover {
+  color: #77787b;
+}
+/* MAP */
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+iframe {
+  border-radius: 2rem;
+  box-shadow: 0 10px 20px rgba(50, 50, 50, 0.6);
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,37 @@
+/* NAV */
+header {
+  font-family: "Ubuntu", sans-serif;
+  min-height: 10vh;
+  /* width: 100vw; */
+  background: rgba(255, 255, 255, 0.1);
+}
+nav {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 20px rgba(50, 50, 50, 0);
+  width: 100vw;
+  z-index: 10;
+}
+.main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  height: 8rem;
+  width: 27rem;
+  object-fit: cover;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: #f49ac1;
+  text-decoration-thickness: 3px;
+}

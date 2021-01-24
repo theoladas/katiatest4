@@ -10,16 +10,23 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Jura:wght@400;700&family=Lobster+Two:ital,wght@0,400;1,700&family=Montserrat:wght@100;700&family=Poppins:wght@100;400;700&family=Ubuntu:wght@300;700&display=swap"
       rel="stylesheet"
     />
+    <!-- PATTERNS -->
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+
     <!-- CSS -->
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/landing.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="style.css" />
     <title>Κάτια Λαδά | Beauty Salon</title>
   </head>
   <body>
+    <!-- NAV -->
     <header class="header">
       <nav class="main-nav">
         <ul class="nav-links">
@@ -38,10 +45,10 @@
         </ul>
       </nav>
       <main>
-        <section class="landing">
-          <!-- <img class="wave" src="./images/wavesNegative.svg" alt="" /> -->
-          <!-- WAVE -->
-          <div class="custom-shape-divider-bottom-1610918416">
+      <!-- LANDING WELCOME -->
+            <section class="landing">
+           <!-- WAVE -->
+           <div class="custom-shape-divider-bottom-1610918416">
             <svg
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
@@ -54,21 +61,43 @@
               ></path>
             </svg>
           </div>
-          <div class="landing-text">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
-              quisquam veniam.<br />
-              Repellat nostrum facere, earum rem quae totam labore alias.
-            </p>
-            <h2>Lorem ipsum dolor sit amet.</h2>
-          </div>
+          <div class="welcome-img"><img src="./images/kolazwelcome.jpg" alt=""></div>
+          
         </section>
-      </main>
+        <!-- <div class="landing-text">
+          <p>
+            Lorem ipsum dolor sit amet..<br />
+            Repellat nostrum facere, earum rem quae totam labore alias.
+          </p>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+        </div> -->
+        <!-- WELCOME INFO -->
+     
+        <section class="welcome-info">
+          <div class="welcome-text">
+          <h3>Σύγχρονο Κέντρο Αισθητικής</h3>
+            <h2><img src="https://fontmeme.com/permalink/210124/947b0566603affee49981b4b2c4320c5.png" alt="daniel-font" border="0">
+            </h2>
+            <h3>Επαγγελματικές Υπηρεσίες περιποίηση άκρων, <br> μακιγιάζ, τοποθέτηση βλεφαρίδων lashlift, αποτρίχωσης <br>και περιποίησης προσώπου</h3>
+              <p>Για ραντεβού μπορείτε να καλέσετε στο <a style="color: #f49ac1" class="tel" href="tel:+302374082034">2374082034</a>,<br> στις ώρες λειτουργίας μας.
+            </p>
+            <p style="color: #f49ac1">Δευ - Παρ: 10:00 - 13:00 | 15:00 - 20:00</p>
+          </div>
+          <div class="pattern-dots-md gray-light">
+            <img src="./images/kolaz-face2.jpg"/>
+            </div>
+           </section>
+           <!-- <div class="welcome-kolaz">
+            <img class= "kolaz" src="./images/Group 2.png" alt="">
+          </div> -->
+            
+
+
         <!-- FOOTER -->
         <footer class="footer">
           <div class="footer-wrap">
             <h4>Ώρες Λειτουργίας</h4>
-            <p>Δευ - Παρ: 10:00 - 13:00 | 17:00 - 20:00</p>
+            <p>Δευ - Παρ: 10:00 - 13:00 | 15:00 - 20:00</p>
             <p>Σάββατο & Κυριακή: Κλειστά</p>
           </div>
           <div class="footer-wrap">
@@ -87,7 +116,7 @@
           <div class="footer-wrap follow">
             <h4>Ακολουθήστε μας</h4>
             <div class="footer-icon">
-            <a href="https://www.instagram.com/katia_lada/" target="_blank"><img src="../icons/instagramwhite.png" alt="" class="icon2" /></a>
+            <a href="https://www.instagram.com/katia_lada/" target="_blank"><img src="./icons/instagramwhite.png" alt="" class="icon2" /></a>
           </div>
           </div>    
           </div>

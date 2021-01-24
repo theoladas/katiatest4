@@ -1,0 +1,100 @@
+/* LANDING PAGE */
+.welcome-img {
+  position: absolute;
+  top: -12%;
+  width: 100%;
+  overflow: hidden;
+  /* object-fit: cover; */
+}
+.landing {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  opacity: 0.7;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.landing-text {
+  border-radius: 3rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 55%;
+  right: 49%;
+  padding: 3rem;
+  opacity: 0.9;
+  z-index: -1;
+}
+.landing-text h2 {
+  color: #f49ac1;
+}
+.landing-text p {
+  color: #77787b;
+}
+
+/* WAVE landing page */
+.custom-shape-divider-bottom-1610918416 {
+  position: absolute;
+  top: 68%;
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+}
+
+.custom-shape-divider-bottom-1610918416 svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 90px;
+}
+.custom-shape-divider-bottom-1610918416 .shape-fill {
+  fill: white;
+}
+
+/* WELCOME INFO */
+.welcome-info {
+  font-family: "Comfortaa", cursive;
+  background: white;
+  /* background: #77787b; */
+  /* background: #734e46; */
+  min-height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  margin-bottom: 2rem;
+}
+.welcome-text {
+  /* background: #c8b4ad; */
+  background: #e1e2dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome-text h3 {
+  /* color: #77787b; */
+  color: #77787b;
+  margin: 2rem 10rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+}
+.welcome-text p {
+  margin: 0rem 10rem;
+  color: #77787b;
+  line-height: 3.5rem;
+}
+.welcome-text img {
+  margin: 0rem 10rem;
+}
+.pattern-dots-md {
+  /* margin: 2rem auto; */
+  /* color: #f49ac1; */
+  color: #e1e2dc;
+  transform: translate(10px, -10px);
+}
