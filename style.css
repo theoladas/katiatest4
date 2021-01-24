@@ -91,27 +91,4 @@ h4 {
   .icon2 {
     width: 30px;
   }
-  .welcome-text h3 {
-    font-size: 2.2rem;
-    /* color: #77787b; */
-    color: #77787b;
-    margin: 2rem 10rem;
-    line-height: 3.5rem;
-    font-weight: 400;
-  }
-  .welcome-text p {
-    font-size: 1.9rem;
-    margin: 0rem 10rem;
-    color: #77787b;
-    line-height: 3.5rem;
-  }
-  .welcome-text img {
-    margin: 0rem 10rem;
-  }
-  .pattern-dots-md {
-    margin: 2rem auto;
-    /* color: #f49ac1; */
-    color: #e1e2dc;
-    transform: translate(10px, -10px);
-  }
 }
