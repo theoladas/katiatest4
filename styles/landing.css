@@ -1,15 +1,15 @@
 /* LANDING PAGE */
+.welcome-img {
+  position: absolute;
+  top: -12%;
+  width: 100%;
+  overflow: hidden;
+  /* object-fit: cover; */
+}
 .landing {
   font-family: "Poppins", sans-serif;
-  /* background-image: url(../images/Group\ 1.jpg); */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* background-size: 100%; */
   position: relative;
   opacity: 0.7;
-  /* top: 0%;
-  left: 0%; */
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -17,102 +17,219 @@
   align-items: center;
   z-index: -1;
 }
-.welcome-img {
-  object-fit: cover;
-  height: 90vh;
-}
+
 .landing-text {
   border-radius: 3rem;
   background: white;
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 55%;
+  top: 62%;
   right: 49%;
   padding: 3rem;
   opacity: 0.9;
   z-index: -1;
 }
-
 .landing-text h2 {
   color: #f49ac1;
-}
-.landing-text p {
-  color: #77787b;
 }
 
 /* WAVE landing page */
 .custom-shape-divider-bottom-1610918416 {
   position: absolute;
-  top: 30%;
+  top: 70%;
   bottom: 0%;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 .custom-shape-divider-bottom-1610918416 svg {
   position: relative;
   display: block;
-  width: calc(149% + 1.3px);
-  height: 100px;
+  width: calc(119% + 1.3px);
+  height: 90px;
 }
 .custom-shape-divider-bottom-1610918416 .shape-fill {
   fill: white;
 }
 
 /* WELCOME INFO */
-
 .welcome-info {
-  /* margin: 10rem 0rem; */
   font-family: "Comfortaa", cursive;
   background: white;
   /* background: #77787b; */
   /* background: #734e46; */
   min-height: 60vh;
-  /* width: 75%; */
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.kolaz {
+  width: 100%;
+}
+.welcome-text {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome-text h3 {
+  color: #77787b;
+  margin: 2rem 10rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+}
+.welcome-text p {
+  margin: 0rem 10rem;
+  color: #77787b;
+  line-height: 3.5rem;
+}
+.welcome-text img {
+  margin: 0rem 10rem;
+}
+.pattern-dots-md {
+  margin: 2rem auto;
+  color: #e1e2dc;
+  transform: translate(10px, -10px);
+}
+
+.separator {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f49ac1' fill-opacity='0.26'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.welcome-info2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 50vh;
+}
+.welcome-text2 {
+  margin: 2rem;
+  flex: 2;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcome-text2 h3 {
+  color: #f49ac1;
+  margin: 2rem 0rem;
+  font-weight: 400;
+  font-size: 4rem;
+}
+.welcome-text2 p {
+  color: #77787b;
+  line-height: 3.5rem;
+}
+.kolaz {
+  object-fit: cover;
+  width: 100%;
+}
+/* WELCOME CARDS */
+.cards {
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card1,
+.card2,
+.card3 {
+  margin: 2rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 2rem;
+  opacity: 0.7;
+  transition: all 0.5s ease;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.card-image {
+  box-shadow: 0 1px 7px #77787b;
+  border-radius: 2rem;
+  width: 300px;
+  height: 300px;
+}
+
+/* SERVICES */
+.services {
+  position: relative;
+  margin-top: 3rem;
+  min-height: 80vh;
+  background-image: url(../images/services1.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.welcome-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: flex-end; */
-  /* margin-left: 11rem; */
+/* font-family: "Comfortaa", cursive; */
+
+.serv {
+  margin: 3rem;
+  font-family: "Comfortaa", cursive;
+  color: white;
 }
-.welcome-text h3 {
+.serv h3 {
+  margin: 3rem;
+  font-size: 3.5rem;
+}
+.serv li {
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem;
   color: #77787b;
-  /* color: white; */
-  margin: 2rem 0rem;
-  line-height: 3.5rem;
-  font-weight: 400;
 }
-.welcome-text p {
-  color: #77787b;
-  /* color: white; */
-  line-height: 3.5rem;
+.serv li:nth-last-child(1) {
+  padding: 2rem 3rem;
+  background: #f49ac1;
+  border-radius: 1rem;
 }
-/* .welcome-kolaz {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 3rem;
+
+.serv li a {
+  font-weight: 300;
+  color: white;
 }
-.kolaz {
-  border-radius: 2rem;
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-} */
-.pattern-dots-md {
-  /* margin: 3rem; */
-  color: #f49ac1;
-  transform: translate(10px, -10px);
+.serv li a:hover {
+  cursor: pointer;
+}
+/* WAVE SERVICES */
+.custom-shape-divider-bottom-1611612826 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1611612826 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1611612826 .shape-fill {
+  fill: #ffffff;
 }
